@@ -51,7 +51,7 @@ font-family: 'Poppins', sans-serif;*/
     position: relative;
     margin-top: -10vh;
     padding-top: 50%;
-    background: url('/assets/img/slider/slider1.png') top center / cover no-repeat ;
+    background: url('assets/img/slider/slider1.png') top center / cover no-repeat ;
 }
 
 #slider #slider_content {
