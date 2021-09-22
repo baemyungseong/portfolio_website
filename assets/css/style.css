@@ -7,6 +7,294 @@ font-family: 'Poppins', sans-serif;*/
     box-sizing: border-box;
 }
 
-h1 {
-    color: red;
+/* Header */
+
+#header {
+    position: relative;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    z-index: 1;
+}
+
+#header h3 {
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    margin-left: 7vw;
+    font-weight: 600;
+    font-size: 1.8vw;
+    text-shadow: 0.5px 0.5px 20px #888;
+}
+
+#header #nav {
+    display: flex;
+    position: absolute;
+    right: 0;
+    list-style-type: none;
+    margin-right: 7vw;
+}
+
+#header #nav li a {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    margin: 0 2vw;
+    font-size: 1.1vw;
+    font-weight: 400;
+    text-shadow: 0.5px 0.5px 15px #888;
+}
+
+/* Slider */
+
+#slider {
+    position: relative;
+    margin-top: -10vh;
+    padding-top: 50%;
+    background: url('/assets/img/slider/slider1.png') top center / cover no-repeat;
+}
+
+#slider #slider_content {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    text-align: center;
+}
+
+#slider #slider_content #slider_text #slider_greeting {
+    font-size: 1.7vw;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+}
+
+#slider #slider_content #slider_text #slider_title {
+    display: flex;
+    flex-direction: row;
+    font-size: 2.5vw;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 2vh;
+}
+
+#slider #slider_content #slider_text #slider_title h1 {
+    margin: 0 0.6vw;
+}
+
+#slider #slider_content #slider_text #slider_title #slider_title_1 {
+    font-weight: 100;
+    text-shadow: 0.5px 0.5px 10px #888;
+}
+
+#slider #slider_content #slider_text #slider_title #slider_title_2 {
+    font-weight: 500;
+    text-shadow: 0.5px 0.5px 20px #888;
+}
+
+#slider #slider_content #slider_social_icon {
+    margin-top: 4vh;
+}
+
+#slider #slider_content #slider_social_icon i {
+    font-size: 1.8vw;
+    margin: 0 0.7vw;
+}
+
+#slider #slider_content #slider_btn {
+    background-color: transparent;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1vw;
+    border-radius: 1.8vw;
+    padding: 1.5vh 1.2vw;
+    border: 0.15vw #fff solid;
+    box-shadow: 0.5px 0.5px 10px #888;
+    margin-top: 7vh;
+    margin-bottom: 10vh;
+}
+
+#slider #slider_content #slider_btn:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+#slider #slider_content #slider_down {
+    font-size: 2vw;
+    text-shadow: 0.5px 0.5px 10px #888;
+    margin-top: 10vh;
+    margin-bottom: 5vh;
+}
+
+/* Content */
+
+/* About Section */
+
+#content {
+    position: relative;
+    /* remembering remove height! */
+    height: 800px;
+}
+
+#content #about {
+    position: relative;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#content #about .content_header {
+    display: flex;
+    flex-direction: column;
+    margin-top: 8vh;
+    align-items: center;
+}
+
+#content #about .content_header .content_title {
+    display: flex;
+    flex-direction: row;
+    font-size: 3vw;
+    font-family: 'Poppins', sans-serif;
+}
+
+#content #about .content_header .content_title h3 {
+    margin: 0 0.4vw;
+}
+
+#content #about .content_header .content_title .content_title_1 {
+    font-weight: 700;
+}
+
+#content #about .content_header .content_title .content_title_2{
+    font-weight: 400;
+}
+
+#content #about .content_header .content_divider {
+    width: 10vw;
+    position: relative;
+    align-items: center;
+    text-align: center;
+}
+
+#content #about .content_header .content_divider i {
+    position: absolute;
+    flex-direction: column;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    font-size: 25px;
+}
+
+#content #about .content_header .content_divider hr {
+    position: absolute;
+    border: 0.1px solid #ddd;
+    border-radius: 1px;
+    margin-top: 12px;
+    left: 0;
+    right: 0;
+}
+
+#content #about .content_header .content_maxim {
+    margin-top: 7vh;
+    font-size: 1.5vw;
+    color: #888;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-style: italic;
+}
+
+
+
+#content #about #content_body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5vh;
+}
+
+#content #about #content_body h1 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 5vw;
+    font-weight: 600;
+    margin-top: 2vh;
+    letter-spacing: 0.2vw;
+}
+
+#content #about #content_body #content_body_title {
+    display: flex;
+    flex-direction: row;
+    font-size: 2vw;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 5vh;
+}
+
+#content #about #content_body #content_body_title h3 {
+    margin: 0 0.4vw;
+}
+
+#content #about #content_body #content_body_title #content_body_title_1 {
+    font-weight: 400;
+}
+
+#content #about #content_body #content_body_title #content_body_title_2 {
+    font-weight: 600;
+}
+
+#content #about #content_body #content_body_job {
+    display: flex;
+    flex-direction: row;
+    font-size: 1.8vw;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 2vh;
+    color: #888;
+}
+
+#content #about #content_body #content_body_job #content_job_1 {
+    font-weight: 600;
+}
+
+#content #about #content_body #content_body_job #content_job_2 {
+    font-weight: 400;
+    margin: 0 1vw;
+}
+
+#content #about #content_body #content_body_job #content_job_3 {
+    font-weight: 600;
+}
+
+#content #about #content_body #content_body_job #content_job_4 {
+    font-weight: 400;
+    margin: 0 1vw;
+}
+
+#content #about #content_body #content_body_job #content_job_5 {
+    font-weight: 600;
+}
+
+#content #about #content_body p {
+    width: 70%;
+    font-size: 1.5vw;
+    color: #888;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin-top: 3vh;
+    word-wrap: break-word;
+}
+
+/* Favourite Section */
+
+#content #favourite {
+    position: relative;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+/* Footer */
+
+#footer {
+    position: relative;
 }
