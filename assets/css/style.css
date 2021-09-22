@@ -135,7 +135,7 @@ font-family: 'Poppins', sans-serif;*/
 #content {
     position: relative;
     /* remembering remove height! */
-    height: 1000px;
+    height: 800px;
 }
 
 #content #about {
@@ -297,5 +297,5 @@ font-family: 'Poppins', sans-serif;*/
 
 #footer {
     position: relative;
-    height: 500px;
+    height: 100px;
 }
