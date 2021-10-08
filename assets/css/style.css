@@ -11,7 +11,7 @@ font-family: 'Poppins', sans-serif;*/
 
 #header {
     position: relative;
-    height: 10vh;
+    height: 4.8vw;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -49,7 +49,7 @@ font-family: 'Poppins', sans-serif;*/
 
 #slider {
     position: relative;
-    margin-top: -10vh;
+    margin-top: -4.8vw;
     padding-top: 50%;
     background: url('../img/slider/me1.png') top center / cover no-repeat;
 }
@@ -76,7 +76,7 @@ font-family: 'Poppins', sans-serif;*/
     flex-direction: row;
     font-size: 2.5vw;
     font-family: 'Poppins', sans-serif;
-    margin-top: 2vh;
+    margin-top: 0.95vw;
 }
 
 #slider #slider_content #slider_text #slider_title h1 {
@@ -94,7 +94,7 @@ font-family: 'Poppins', sans-serif;*/
 }
 
 #slider #slider_content #slider_social_icon {
-    margin-top: 4vh;
+    margin-top: 2vw;
 }
 
 #slider #slider_content #slider_social_icon i {
@@ -108,11 +108,11 @@ font-family: 'Poppins', sans-serif;*/
     font-family: 'Poppins', sans-serif;
     font-size: 1vw;
     border-radius: 1.8vw;
-    padding: 1.5vh 1.2vw;
+    padding: 0.75vw 1.2vw;
     border: 0.15vw #fff solid;
     box-shadow: 0.5px 0.5px 10px #888;
-    margin-top: 7vh;
-    margin-bottom: 10vh;
+    margin-top: 3.35vw;
+    margin-bottom: 5vw;
 }
 
 #slider #slider_content #slider_btn:hover {
@@ -124,8 +124,8 @@ font-family: 'Poppins', sans-serif;*/
 #slider #slider_content #slider_down {
     font-size: 2vw;
     text-shadow: 0.5px 0.5px 10px #888;
-    margin-top: 10vh;
-    margin-bottom: 5vh;
+    margin-top: 4.3vw;
+    margin-bottom: 2.4vw;
 }
 
 /* Content */
